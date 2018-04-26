@@ -107,7 +107,6 @@ def turn(board)
     display_board(board)
   else
     turn(board)
-binding.pry
   end
 end
 
