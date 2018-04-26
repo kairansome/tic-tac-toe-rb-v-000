@@ -123,5 +123,4 @@ def play(board)
     turn(board)
     play(board)
   end
-binding.pry
 end
