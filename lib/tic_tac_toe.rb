@@ -120,5 +120,6 @@ binding.pry
     end
   else turn(board)
   play(board)
+binding.pry
   end
 end
