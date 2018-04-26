@@ -120,4 +120,5 @@ def play(board)
   else turn(board)
   play(board)
   end
+binding.pry
 end
