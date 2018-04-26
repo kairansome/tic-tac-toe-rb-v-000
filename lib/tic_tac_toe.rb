@@ -1,4 +1,4 @@
-
+require 'pry'
 # Helper Method
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
@@ -112,6 +112,7 @@ end
 
 def play(board)
   if over?(board)
+binding.pry
     if won?(board)
       puts "Congratulations #{winner(board)}!"
     elsif draw?(board)
