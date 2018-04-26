@@ -117,8 +117,9 @@ def play(board)
     elsif draw?(board)
       puts "Cat's Game!"
     end
-  else turn(board)
-  play(board)
+  else
+    turn(board)
+    play(board)
   end
 binding.pry
 end
