@@ -90,11 +90,9 @@ def move(board, index, current_player)
 end
 
 def current_player(board)
-  if turn_count(board) == 0
+  if turn_count(board) % 2 == 0
     return "X"
-  elsif turn_count(board) % 2 == 0
-    return "X"
-  elsif turn_count(board) % 3 == 0
+  else
     return "O"
   end
 end
