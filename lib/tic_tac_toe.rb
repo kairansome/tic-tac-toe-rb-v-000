@@ -112,6 +112,7 @@ def turn(board)
 end
 
 def play(board)
+binding.pry
   if over?(board)
     if won?(board)
       puts "Congratulations #{winner(board)}!"
